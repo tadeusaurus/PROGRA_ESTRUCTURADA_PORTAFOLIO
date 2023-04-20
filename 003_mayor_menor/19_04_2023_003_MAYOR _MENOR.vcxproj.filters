@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ARITMETICOS_03_04_2023_HECTOR.cpp">
+    <ClCompile Include="19_04_2023_003_MAYOR _MENOR.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4e849e5d-ca64-4c8d-9e37-a051c3a5ee0e}</ProjectGuid>
-    <RootNamespace>ARITMETICOS03042023HECTOR</RootNamespace>
+    <ProjectGuid>{6518254f-c37e-42b0-b274-3bacf97d5731}</ProjectGuid>
+    <RootNamespace>My19042023003MAYORMENOR</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ARITMETICOS_03_04_2023_HECTOR.cpp" />
+    <ClCompile Include="19_04_2023_003_MAYOR _MENOR.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
