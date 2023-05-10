@@ -11,6 +11,7 @@ int main()
     int aux = 3, aux2 = 0;
     int opc = 0;
     int num1 = 0, num2 = 0, res = 0;
+    int SALTO=0;
 
 
     while (true)
@@ -21,7 +22,7 @@ int main()
         {
         case 1: // Calculadora
             //Tener una calculadora que solo haga 3 operaciones.
-            while (aux != 0)
+            while (aux != 0)    
             {
                 //Algoritmo de la calculadora
                 std::cout << "Ingresa 1 para suma 2 para resta\n";
@@ -77,7 +78,7 @@ int main()
         {
             for (int i = 1; i <= 100; i++) {
                 std::cout << i << std::endl;
-                _sleep(100);
+                Sleep(100);
 
             }
         }
@@ -86,9 +87,16 @@ int main()
 
             std::cout << "Estas en el contador de 10 X 10\n";
             {
-                for (int i = 10; i <= 100; i++) {
-                    std::cout << i << std::endl;
-                    _sleep(100);
+                for (int i = 1; i <= 100; i++) {
+                    SALTO++;
+                    std::cout << i << " ";
+                    if (SALTO == 10)
+                    {
+                        std::cout << "\n";
+                        SALTO = 0;
+                    }
+                    
+                    Sleep(500);
                 }
 
 
@@ -103,6 +111,9 @@ int main()
 
 
 }
+
+
+	
 
 
 	
