@@ -1,14 +1,14 @@
 // P17_Matriz_19_05_2023.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 
 
-#include <locale.h>    // Para establecer la localización de UTF-8
-#include <Windows.h>   // Para utilizar la función SetConsoleOutputCP
-#include <iostream>    // Para entrada y salida estándar
-#include <cstdlib>     // Para generar números aleatorios con rand
-#include <ctime>       // Para inicializar la semilla de rand
+#include <locale.h>    
+#include <Windows.h>  
+#include <iostream>    
+#include <cstdlib>    
+#include <ctime> // Para inicializar la semilla de rand
 
 int main() {
-    setlocale(LC_ALL, "es-ES.UTF-8");  // Establecer la localización de UTF-8
+    setlocale(LC_ALL, "es-ES.UTF-8");  
 
     int opcion;
     std::cout << "Ingrese la opción de una" << std::endl;
@@ -16,7 +16,7 @@ int main() {
     std::cout << "2. Matriz 5x5 " << std::endl;
     std::cout << "3. Matriz 10x10" << std::endl;
     std::cout << "Opción: ";
-    std::cin >> opcion;
+    std::cin >> opcion; 
 
     int filas, columnas;
 
